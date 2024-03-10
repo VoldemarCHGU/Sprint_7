@@ -1,0 +1,44 @@
+{
+  "name": "Проверка на успешное создание курьера",
+  "status": "passed",
+  "start": 1710094794655,
+  "stop": 1710094795099,
+  "uuid": "3d6becc3-7b17-4cc5-b5ba-1a6f3f057986",
+  "historyId": "bb05f5a130ffe7a201549ddbb33677b0",
+  "testCaseId": "bb05f5a130ffe7a201549ddbb33677b0",
+  "fullName": "tests.test_courier.TestCreateCourier#test_create_courier_pass",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_courier"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateCourier"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Inessa.local"
+    },
+    {
+      "name": "thread",
+      "value": "20782-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_courier"
+    }
+  ]
+}
