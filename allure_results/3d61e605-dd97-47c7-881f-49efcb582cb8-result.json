@@ -1,0 +1,44 @@
+{
+  "name": "Проверка на создание курьера без пароля (негативный тест)",
+  "status": "passed",
+  "start": 1710094795840,
+  "stop": 1710094796057,
+  "uuid": "a266a3bc-a3f9-4406-a76f-9d0bf25b8984",
+  "historyId": "16c0cda7e3919656bcfa68a675ce4706",
+  "testCaseId": "16c0cda7e3919656bcfa68a675ce4706",
+  "fullName": "tests.test_courier.TestCreateCourier#test_create_courier_without_password",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_courier"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateCourier"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Inessa.local"
+    },
+    {
+      "name": "thread",
+      "value": "20782-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_courier"
+    }
+  ]
+}
