@@ -3,9 +3,6 @@ import random
 import string
 
 
-# код из спринта 7
-# метод регистрации нового курьера возвращает список из логина и пароля
-# если регистрация не удалась, возвращает пустой список
 def generate_new_courier_data(login=True, password=True, first_name=True, double_login=False):
     # метод генерирует строку, состоящую только из букв нижнего регистра, в качестве параметра передаём длину строки
     def generate_random_string(length):
@@ -32,8 +29,4 @@ def generate_new_courier_data(login=True, password=True, first_name=True, double
         payload_second['password'] = payload_first['password'][::-1]
         payload_second['firstName'] = payload_first['firstName'][::-1]
         return payload_first, payload_second
-
-    # отправляем запрос на регистрацию курьера и сохраняем ответ в переменную response
-    # response = requests.post('https://qa-scooter.praktikum-services.ru/api/v1/courier', data=payload)
-
     return payload_first
