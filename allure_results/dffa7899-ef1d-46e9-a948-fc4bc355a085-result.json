@@ -1,0 +1,50 @@
+{
+  "name": "Проверка на ошибку при авторизации, если не заполнить логин или пароль",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "data",
+      "value": "{'login': 'rdzuviyjff', 'password': ''}"
+    }
+  ],
+  "start": 1710094797016,
+  "stop": 1710094797248,
+  "uuid": "58d1a90f-5e9d-4ac4-b522-5165b5782124",
+  "historyId": "16c0e4e6641eca4d767f02a0535fa101",
+  "testCaseId": "44473c2248155077fa6fa93851fd4d64",
+  "fullName": "tests.test_courier.TestLoginCourier#test_courier_login_witout_required_data",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_courier"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLoginCourier"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Pro-Inessa.local"
+    },
+    {
+      "name": "thread",
+      "value": "20782-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_courier"
+    }
+  ]
+}
